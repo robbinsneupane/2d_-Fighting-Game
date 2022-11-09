@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="left">
+        <h1 id="l-name"></h1>
+        <img src="Character/Character2.gif" alt="" id="char1" />
+        <h1 id="l-score"></h1>
+        <button class="attack">Attack 'Q'</button>
+        <button class="heal">Heal <br />'A'</button>
+      </div>
+      <div class="right">
+        <h1 id="r-name"></h1>
+        <img src="Character/Character1.gif" alt="" id="char2" />
+        <h1 id="r-score"></h1>
+        <button class="attack">Attack 'P'</button>
+        <button class="heal">Heal <br />'L'</button>
+      </div>
+    </main>
+    <div class="moreBtn">
+      <button id="simulate">Simulate</button>
+      <button id="restart">Restart</button>
+    </div>
+    <h1 id="result"></h1>
+  </body>
+
+  <script src="script.js"></script>
+  <audio src="Audio/punch.wav" type="audio/mpeg" id="punch"></audio>
+  <audio src="Audio/victory.wav" type="audio/mpeg" id="victory"></audio>
+  <audio src="Audio/heal.wav" type="audio/mpeg" id="heal"></audio>
+  <audio src="Audio/sword.wav" type="audio/mpeg" id="sword"></audio>
+</html>

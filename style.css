@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+
+img {
+  height: 16rem;
+  margin: 4rem;
+}
+
+button {
+  width: 6rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 0 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.attack {
+  background: red;
+}
+
+.heal {
+  background: green;
+}
+
+.moreBtn button {
+  background: rgb(29, 24, 179);
+  color: white;
+  margin: 4rem 0.5rem;
+}
