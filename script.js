@@ -124,3 +124,5 @@ document.addEventListener("keydown", (e) => {
     document.querySelector("#heal").play();
   }
 });
+
+
